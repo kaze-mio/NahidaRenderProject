@@ -1,29 +1,29 @@
 ﻿using UnityEngine;
 
-namespace NahidaRender
+namespace Nahida
 {
     public class TransformRotator : MonoBehaviour
     {
         [SerializeField]
-        private float m_cycle;
+        private float m_Cycle;
 
         [SerializeField]
-        private Vector3 m_axis;
+        private Vector3 m_Axis;
 
-        private Quaternion m_rotation;
+        private Quaternion _rotation;
 
-        private float m_startTime;
+        private float _startTime;
 
         private void OnEnable()
         {
-            m_rotation = transform.rotation;
-            m_startTime = Time.time;
+            _rotation = transform.rotation;
+            _startTime = Time.time;
         }
 
         private void Update()
         {
-            float angle = 360f * (Time.time - m_startTime) / m_cycle;
-            transform.rotation = Quaternion.AngleAxis(angle, m_axis) * m_rotation;
+            float angle = 360f * (Time.time - _startTime) / m_Cycle;
+            transform.rotation = Quaternion.AngleAxis(angle, m_Axis) * _rotation;
         }
     }
 }

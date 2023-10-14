@@ -65,6 +65,5 @@ Material:
     - _UseNormalMap: 1
     - _UseRim: 1
     - _UseSpecular: 1
-    m_Colors:
-    - _OutlineColor: {r: 0.47843137, g: 0.47843137, b: 0.6, a: 1}
+    m_Colors: []
   m_BuildTextureStacks: []

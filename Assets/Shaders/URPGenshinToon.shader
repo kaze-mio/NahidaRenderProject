@@ -53,6 +53,10 @@ Shader "URPGenshinToon"
         [Header(Outline)]
         _OutlineWidth("Outline Width", Float) = 1
         _OutlineColor("Outline Color", Color) = (0,0,0,1)
+        _OutlineColor2("Outline Color 2", Color) = (0,0,0,1)
+        _OutlineColor3("Outline Color 3", Color) = (0,0,0,1)
+        _OutlineColor4("Outline Color 4", Color) = (0,0,0,1)
+        _OutlineColor5("Outline Color 5", Color) = (0,0,0,1)
     }
 
     Subshader

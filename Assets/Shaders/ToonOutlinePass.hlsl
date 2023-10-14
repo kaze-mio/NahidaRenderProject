@@ -38,5 +38,14 @@ Varyings OutlinePassVertex(Attributes input)
 
 half4 OutlinePassFragment(Varyings input) : SV_TARGET
 {
-    return _OutlineColor;
+    half4 lightMap = SAMPLE_TEXTURE2D(_LightMap, sampler_LightMap, input.uv);
+    half material = lerp(lightMap.a, _CustomMaterialType, _UseCustomMaterialType);
+
+    half4 color = _OutlineColor5;
+    color = lerp(color, _OutlineColor4, step(0.2, material));
+    color = lerp(color, _OutlineColor3, step(0.4, material));
+    color = lerp(color, _OutlineColor2, step(0.6, material));
+    color = lerp(color, _OutlineColor, step(0.8, material));
+
+    return color;
 }

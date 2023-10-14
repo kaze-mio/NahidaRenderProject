@@ -373,9 +373,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711d20640ba9a76428eb565b58d22d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_headBone: {fileID: 1737791437}
-  m_headDirection: {x: 0, y: 0, z: 1}
-  m_faceRenderers:
+  m_HeadBone: {fileID: 1737791437}
+  m_HeadDirection: {x: 0, y: 0, z: 1}
+  m_FaceRenderers:
   - {fileID: 1266779430}
 --- !u!1 &330585543
 GameObject:
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
+  m_SoftShadowQuality: 3
 --- !u!114 &410087043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,8 +644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e3dba08e0aa80041b5851de7eb4b984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_cycle: 10
-  m_axis: {x: 0, y: 1, z: 0}
+  m_Cycle: 10
+  m_Axis: {x: 0, y: 1, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: URP Global Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,9 +922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711d20640ba9a76428eb565b58d22d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_headBone: {fileID: 1176334751}
-  m_headDirection: {x: 0, y: 1, z: 0}
-  m_faceRenderers:
+  m_HeadBone: {fileID: 1176334751}
+  m_HeadDirection: {x: 0, y: 1, z: 0}
+  m_FaceRenderers:
   - {fileID: 2020594297}
   - {fileID: 1556585450}
 --- !u!137 &1556585450 stripped
