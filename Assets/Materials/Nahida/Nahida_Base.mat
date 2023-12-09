@@ -133,10 +133,10 @@ Material:
     - _DoubleSided: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EmissionIntensity: 1
+    - _EmissionIntensity: 0.2
     - _EnvironmentReflections: 1
     - _FaceBlushStrength: 0
-    - _FaceShadowOffset: 0.05
+    - _FaceShadowOffset: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -144,17 +144,18 @@ Material:
     - _IsFace: 0
     - _Metallic: 0
     - _MetallicIntensity: 8
-    - _NonmetallicIntensity: 0.5
+    - _NonmetallicIntensity: 0.3
     - _OcclusionStrength: 1
-    - _OutlineWidth: 2
+    - _OutlineWidth: 1.6
+    - _OutlineZOffset: 0.1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimIntensity: 1
+    - _RimIntensity: 0.5
     - _RimOffset: 5
     - _RimThreshold: 0.5
-    - _ShadowOffset: 0.05
-    - _ShadowSmoothness: 0.3
+    - _ShadowOffset: 0.1
+    - _ShadowSmoothness: 0.4
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -166,6 +167,7 @@ Material:
     - _UseEmission: 0
     - _UseNormalMap: 0
     - _UseRim: 0
+    - _UseSmoothNormal: 0
     - _UseSpecular: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -175,11 +177,14 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FaceBlushColor: {r: 1, g: 0.72156864, b: 0.69803923, a: 1}
     - _FaceDirection: {r: 0, g: 0, b: 1, a: 0}
+    - _LightDirectionMultiplier: {r: 1, g: 0.5, b: 1, a: 0}
     - _OutlineColor: {r: 0.5176471, g: 0.35686275, b: 0.34117648, a: 1}
     - _OutlineColor2: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
     - _OutlineColor3: {r: 0.47058824, g: 0.47058824, b: 0.5647059, a: 1}
     - _OutlineColor4: {r: 0.5176471, g: 0.35686275, b: 0.34117648, a: 1}
-    - _OutlineColor5: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
-    - _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor5: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+    - _OutlineWidthParams: {r: 0, g: 6, b: 0.1, a: 0.6}
+    - _ScreenOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 1.1, g: 1.1, b: 1.1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

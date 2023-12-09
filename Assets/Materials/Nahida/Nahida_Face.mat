@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Nahida_Face
   m_Shader: {fileID: 4800000, guid: 41967839717f3204caa5496de418121e, type: 3}
-  m_Parent: {fileID: 2100000, guid: 376c2c0b7d767d142bfd51c3c33974ac, type: 2}
+  m_Parent: {fileID: 2100000, guid: 65f35073d8747e24c8dae962bcd8f4eb, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _IS_FACE
@@ -57,7 +57,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _IsFace: 1
-    - _OutlineWidth: 0
+    - _OutlineZOffset: 0.5
     - _UseCustomMaterialType: 1
     - _UseRim: 1
     m_Colors: []
